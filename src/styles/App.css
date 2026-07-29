@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+}
+
+
+.app {
+
+  min-height: 100vh;
+  padding: 30px 20px;
+
+}
+
+
+h1 {
+
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+
+}
+
+
+.error {
+
+  background: #ffdddd;
+  color: #b30000;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+.controls {
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+
+}
+
+
+.controls input,
+.controls select {
+
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+
+}
+
+
+.controls button {
+
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+
+
+.app.light {
+
+  background: #f4f6f8;
+  color: #222;
+
+}
+
+
+.app.dark {
+
+  background: #121212;
+  color: white;
+
+}
+
+.app.dark h1 {
+  color: white;
+}
+
+
+.app.dark .task-card,
+.app.dark .task-form {
+
+  background: #1e1e1e;
+  color: white;
+
+}
+
+
+.app.dark input,
+.app.dark textarea,
+.app.dark select {
+
+  background: #333;
+  color: white;
+  border-color: #555;
+
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .app {
+    padding: 20px 10px;
+  }
+
+
+  h1 {
+    font-size: 28px;
+  }
+
+}

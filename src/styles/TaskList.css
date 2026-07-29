@@ -1,0 +1,26 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+}
+
+
+.carousel-slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.empty {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
